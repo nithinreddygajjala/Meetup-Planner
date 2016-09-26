@@ -1,0 +1,66 @@
+.topnav{
+  background: #2980b9;
+  border-radius: 0;
+  color:#fff;
+  border: 0;
+}
+.topnav .active a{
+  background: #2990c9 !important;
+}
+.topnav li, .topnav a{
+  color: #fff !important;
+}
+.content{
+  margin-top:50px;
+}
+.meetup-data{
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+body { 
+  background: url(meetup.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.meetup-data p{
+  line-height: 150%;
+  color:#404040;
+  font-weight: 300;
+  font-size: 16px;
+}
+.host-btn, .view-btn{
+  text-align: center;
+
+  color :#fff;
+  text-decoration: none;
+  font-size: 20px;
+  border:10px solid #fff;
+}
+.host-btn a ,.view-btn a{
+  padding: 10px 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  color:#fff !important;
+  text-decoration: none;
+}
+.host-btn:hover, .host-btn:focus, .view-btn:hover, .host-btn:focus{
+  text-decoration: none;
+  background: #202020;
+  color:#fff;
+}
+.host-btn {
+  background: #27ae60;
+}
+.view-btn{
+  background: #c0392b;
+}
+.created{
+  padding:10px !important;
+}
+.pad{
+  padding: 10px;
+}
